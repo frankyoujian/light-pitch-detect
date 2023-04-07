@@ -18,6 +18,7 @@ cmake --build . --config Release
 ```
 
 ## example
+Refer to bin/pitch_main.cc for demo code
 ```
 ./output/Release/pitch_main.exe
 ```
