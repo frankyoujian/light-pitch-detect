@@ -6,6 +6,11 @@ It is light, no heavy dependency and easy-to-use.
 The only dependency is [anthonix/ffts](https://github.com/anthonix/ffts). The windows binary of ffts has been uploaded to this repo,
 so no need to compile ffts. For other platforms, it needs to compile locally.
 
+The api is ready, all you need is to include api/pitch_api.h, then invoke like this:
+```
+float pitch = pitch_get(audioBuffer, buffer_size, sample_rate);
+```
+
 ## Build
 ```
 mkdir build
